@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -45,3 +46,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # WeatherApp
 # WeatherApp
 # WeatherApp1
+=======
+# WeatherApp
+>>>>>>> f8dc58414d3811107f366f59fe57b5a5563619d5
