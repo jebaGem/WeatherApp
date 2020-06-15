@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from 'react';
 import { Line,Bar } from 'react-chartjs-2';
 import api from "../services/weatherservices";
-import { Day, Weather } from "../types/WeatherTypes";
+import { Day } from "../types/WeatherTypes";
 import './Rainfall.css';
 const initialState: Day[] = [{
   day:1,
@@ -93,6 +93,7 @@ export default function ChartTest() {
             
              rainfallDays.push(dataObj.day);
              amount.push(dataObj.amount);
+              // eslint-disable-next-line react-hooks/exhaustive-deps
               variance=chanceOfRain(dataObj.amount);
               upperBound.push(variance[0])
              mean.push(variance[1]);
